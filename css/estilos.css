@@ -1,0 +1,139 @@
+body{
+	background-image: url('../img/terrazzo.png');
+}
+#cont{
+	width: 800px;
+	height: 1200px;
+	background-color: #ffffff;
+	border:solid 2px #999;
+	margin: auto;
+	font-family: Arial;
+	padding: 20px;
+}
+
+.ventana{
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+	position: fixed;
+	background-image: url('../img/atras.png');
+	top: 0;
+	left: 0;
+	display: none;
+
+}
+
+.form{
+
+	width: 700px;
+	height: 400px;
+	padding: 95px;
+	background-color: #FFF;
+	color: #666;
+	top: 50%
+	left: 50%;
+	position:  absolute;
+	margin-left: 100px; /*izquierda a derecha*/
+	margin-top: 10px; /*abajo*/
+
+}
+.cerrar{
+	color: red;
+	font-weight: 900;
+	text-align: right;
+}
+
+.jumbotron{
+	background-color: #378e7e;
+	color: #ffffff;
+}
+
+.panel-heading{
+	background-color: #2d7a6c !important;
+	color: #ffffff !important;
+}
+
+.modal-header{
+	background-color: #2d7a6c !important;
+	color: #ffffff !important;
+}
+
+.alertify-notifier .ajs-message.ajs-confirm {
+  background: rgba(252, 248, 215, 0.95);
+  border-color: #2d7a6c;
+}
+
+.modal-header{
+	background-color: #2d7a6c !important;
+	color: #ffffff !important;
+}
+
+.navbar{
+	background-color: #2d7a6c !important;
+}
+
+.navbar-brand:link,.navbar-brand:visited{
+	color: #ffffff !important;
+}
+
+.navbar-brand:hover,.navbar-brand:active{
+	color: #050505 !important;
+}
+
+
+#navbar li a:link,#navbar li a:visited{
+	color: #ffffff !important;
+}
+
+#navbar li a:hover,#navbar li a:active{
+	color: #050505 !important;
+}
+
+#btn_g{
+	background-color: #2d7a6c !important;
+	color: #ffffff !important;
+}
+
+#btn_g:link,#btn_g:visited{
+	color: #ffffff !important;
+}
+
+#btn_g:hover,#btn_g:active{
+	color: #050505 !important;
+}
+
+#c_tra{
+	color: #ffffff !important;
+}
+
+#b_c{
+	color: #ffffff !important;
+}
+
+#c_d{
+	color: #ffffff !important;
+}
+
+#c_m{
+	color: #ffffff !important;
+}
+
+#b_b{
+	color: #ffffff !important;
+}
+
+#b_nc{
+	color: #ffffff !important;	
+}
+
+.dropdown-menu{
+	background-color: #2d7a6c !important;
+}
+
+.dropdown-toggle{
+	background-color: #2d7a6c !important;
+}
+
+#us{
+	color: #ffffff !important;	
+}

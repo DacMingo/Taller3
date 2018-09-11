@@ -1,0 +1,43 @@
+create database taller3
+create table usuario(
+	
+
+id_usuario double auto_increment not null,
+    
+
+nombre varchar(25) not null,
+    
+
+apellido varchar(25) not null,
+    
+
+username varchar(15) not null,
+    
+
+pass varchar(550) not null,
+  
+
+tipo int(1) not null,  
+
+activo int(1) not null,
+    
+
+fecha datetime
+,
+
+primary key(id_usuario)
+
+);
+
+
+
+CREATE DEFINER=`usuario`@`localhost` PROCEDURE `insertar_usuario`($nombre varchar(25),$apellido varchar(25),$username varchar(15),$pass varchar(550),$tipo int(1),$activo int(1))
+
+BEGIN
+
+INSERT INTO usuario (nombre,apellido,username,pass,tipo,activo,fecha) 
+VALUES($nombre,$apellido,$username,$pass,$tipo,$activo,now());
+
+COMMIT;
+
+END
